@@ -1,159 +1,154 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# jim945 <jim945@mail.ru>, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Super GRUB2 Disk 2.0s1~beta1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-09 11:37+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-11-09 12:11+0300\n"
+"Last-Translator: jim945 <jim945@mail.ru>\n"
+"Language-Team: Russian <Russian>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: menus/main.cfg:157 menus/main.cfg:224 menus/processenable.cfg:12
 #: menus/processenable.cfg:28 menus/main.cfg:164 menus/main.cfg:235
 msgid "Press escape to return to the main menu"
-msgstr ""
+msgstr "Нажмите escape для возврата в основное меню"
 
 #: menus/main.cfg:164 menus/main.cfg:171
 msgid "Detect and show boot methods"
-msgstr ""
+msgstr "Определить и показать варианты запуска"
 
 #: menus/main.cfg:172 menus/main.cfg:179
 msgid "Boot manually"
-msgstr ""
+msgstr "Выбрать варианты запуска"
 
 #: menus/main.cfg:192 menus/main.cfg:201
 msgid "Extra GRUB2 functionality"
-msgstr ""
+msgstr "Дополнительные настройки GRUB2"
 
 #: menus/main.cfg:213 menus/main.cfg:224
 msgid "Print devices/partitions"
-msgstr ""
+msgstr "Список устройств/разделов"
 
 #: menus/main.cfg:228 menus/main.cfg:239
 msgid "Color ON/OFF"
-msgstr ""
+msgstr "Цвет ON/OFF"
 
 #: menus/main.cfg:238 menus/main.cfg:249
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 #: menus/cfgdetect.cfg:19 menus/cfgdetect.cfg:21
 msgid "(GRUB2 configuration files)"
-msgstr ""
+msgstr "(GRUB2 конфигурационные файлы)"
 
 #: menus/cfgdetect.cfg:55 menus/cfgextract.cfg:54 menus/cfgextract.cfg:49
 msgid "(No grub.cfg file detected)"
-msgstr ""
+msgstr "(Файл grub.cfg не найден)"
 
 #: menus/menulstdetect.cfg:19 menus/menulstdetect.cfg:21
 msgid "(GRUB legacy configuration files)"
-msgstr ""
+msgstr "(GRUB legacy конфигурационные файлы)"
 
 #: menus/menulstdetect.cfg:48 menus/menulstdetect.cfg:54
 msgid "(No menu.lst file detected)"
-msgstr ""
+msgstr "(Файл menu.lst не найден)"
 
 #: menus/autoiso.cfg:18 menus/autoiso.cfg:17
 msgid "Bootable ISOs"
-msgstr ""
+msgstr "Загружаемые ISOs"
 
 #: menus/autoiso.cfg:18 menus/autoiso.cfg:17
 msgid "(in /boot-isos or /boot/boot-isos)"
-msgstr ""
+msgstr "(в /boot-isos или /boot/boot-isos)"
 
 #: menus/cfgextract.cfg:19 menus/cfgextract.cfg:17
 msgid "Extract entries"
-msgstr ""
+msgstr "Извлеченные записи"
 
 #: menus/cfgextract.cfg:43 menus/cfgextract.cfg:37
 msgid "Entries from"
-msgstr ""
+msgstr "Извлечено из"
 
 #: menus/enableencrypted.cfg:18 menus/enableencrypted.cfg:17
 msgid "Mount encrypted volumes"
-msgstr ""
+msgstr "Монтировать зашифрованые тома"
 
 #: menus/enableencrypted.cfg:18 menus/enableencrypted.cfg:17
 msgid "(LUKS and geli)"
-msgstr ""
+msgstr "(LUKS и geli)"
 
 #: menus/enablelvm.cfg:18 menus/enablelvm.cfg:17
 msgid "Enable GRUB2's LVM support"
-msgstr ""
+msgstr "Включить LVM"
 
 #: menus/enableraid.cfg:18 menus/enableraid.cfg:17
 msgid "Enable GRUB2's RAID support"
-msgstr ""
+msgstr "Включить RAID"
 
 #: menus/enableserial.cfg:18 menus/enableserial.cfg:17
 msgid "Enable serial terminal"
-msgstr ""
+msgstr "Включить serial terminal"
 
 #: menus/grubdetect.cfg:24 menus/grubdetect.cfg:17
 msgid "(GRUB2 installation (even if mbr is overwritten))"
-msgstr ""
+msgstr "(GRUB2 установки (даже если mbr перезаписан))"
 
 #: menus/grubdetect.cfg:57 menus/grubdetect.cfg:58
 msgid "(No core.img file detected)"
-msgstr ""
+msgstr "(Файл core.img не найден)"
 
 #: menus/halt.cfg:19 menus/halt.cfg:17
 msgid "Halt"
-msgstr ""
+msgstr "Выключить"
 
 #: menus/language_select.cfg:19 menus/language_select.cfg:17
 msgid "Languages"
-msgstr ""
+msgstr "Язык"
 
 #: menus/osdetect.cfg:21 menus/osdetect.cfg:17
 msgid "Operating Systems"
-msgstr ""
+msgstr "Операционные системы"
 
 #: menus/osdetect.cfg:375
 msgid "Sorry, but we are booted via BIOS and can not load this OS."
-msgstr ""
+msgstr "Извините, но мы загрузились через BIOS и не можем запустить эту ОС."
 
 #: menus/osdetect.cfg:376
 msgid "Please try booting SG2D via UEFI."
-msgstr ""
+msgstr "Пожалуйста, попробуйте загрузить SG2D через UEFI."
 
 #: menus/osdetect.cfg:377 menus/tools.cfg:56
 msgid "Press escape to return to the menu"
-msgstr ""
+msgstr "Нажмите escape для возврата в главное меню"
 
 #: menus/processenable.cfg:4 menus/processenable.cfg:20
 msgid "Begin processing"
-msgstr ""
+msgstr "Начало обработки"
 
 #: menus/processenable.cfg:6 menus/processenable.cfg:22
 msgid "End processing"
-msgstr ""
+msgstr "Окончание обработки"
 
 #: menus/processenable.cfg:12 menus/processenable.cfg:28
 msgid "(or wait 5 seconds)"
-msgstr ""
+msgstr "(или подождите 5 секунд)"
 
 #: menus/reboot.cfg:19 menus/reboot.cfg:17
 msgid "Reboot"
-msgstr ""
+msgstr "Перезагрузить"
 
 #: menus/return.cfg:1 menus/return.cfg:17
 msgid "Return to main menu"
-msgstr ""
+msgstr "Вернуться в главное меню"
 
 #: menus/searchcdrom.cfg:18 menus/searchcdrom.cfg:28 menus/searchcdrom.cfg:17
 #: menus/searchcdrom.cfg:27
 msgid "Search in CDROM"
-msgstr ""
+msgstr "Искать на CDROM"
 
 #: menus/searchcdrom.cfg:18 menus/searchfloppy.cfg:18 menus/searchcdrom.cfg:17
 #: menus/searchsgd.cfg:17 menus/searchfloppy.cfg:17
@@ -163,16 +158,16 @@ msgstr ""
 #: menus/searchcdrom.cfg:18 menus/searchfloppy.cfg:18 menus/searchcdrom.cfg:17
 #: menus/searchsgd.cfg:17 menus/searchfloppy.cfg:17
 msgid "(Default: OFF)"
-msgstr ""
+msgstr "(По умолчанию: OFF)"
 
 #: menus/searchfloppy.cfg:18 menus/searchfloppy.cfg:28
 #: menus/searchfloppy.cfg:17 menus/searchfloppy.cfg:27
 msgid "Search in floppy"
-msgstr ""
+msgstr "Искать на floppy"
 
 #: menus/enableraidlvm.cfg:17
 msgid "Enable GRUB2's RAID and LVM support"
-msgstr ""
+msgstr "Включить RAID и LVM"
 
 #: menus/tools.cfg:48
 msgid "BIOS Compatibility Mode"
@@ -180,35 +175,35 @@ msgstr ""
 
 #: menus/tools.cfg:54
 msgid "Sorry, but we are booted via "
-msgstr ""
+msgstr "Извините, но мы загрузились через "
 
 #: menus/tools.cfg:54
 msgid " and can not load this OS."
-msgstr ""
+msgstr " и не можем запустить эту ОС."
 
 #: menus/tools.cfg:55
 msgid "Please try booting SG2D via"
-msgstr ""
+msgstr "Пожалуйста, попробуйте загрузить SG2D через"
 
 #: menus/diskpartchainboot.cfg:17
 msgid "Disks and Partitions (Chainload)"
-msgstr ""
+msgstr "Диски и разделы (Chainload)"
 
 #: menus/diskpartchainboot.cfg:23
 msgid "Reboot SG2D in BIOS mode to Chainload disks and Partitions"
-msgstr ""
+msgstr "Перезагрузите SG2D в BIOS режиме для загрузки дисков и разделов"
 
 #: menus/enablenative.cfg:17
 msgid "Enable all native disk drivers"
-msgstr ""
+msgstr "Включить все нативные драйверы дисков"
 
 #: menus/enablenative.cfg:17
 msgid "experimental"
-msgstr ""
+msgstr "экспериментальный"
 
 #: menus/searchsgd.cfg:17 menus/searchsgd.cfg:27
 msgid "Search in Super Grub2 Disk device"
-msgstr ""
+msgstr "Искать на Super Grub2 Disk"
 
 #: menus/osdetect.cfg:280
 msgid "UEFI-BOOT-REQUIRED:"
@@ -217,3 +212,5 @@ msgstr ""
 #: menus/osdetect.cfg:286
 msgid "BIOS-BOOT-REQUIRED:"
 msgstr ""
+
+
