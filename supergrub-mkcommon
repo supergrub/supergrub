@@ -71,7 +71,7 @@ function check_unifont () {
   # in turn is needed for displaying non-ASCII characters for non-English translations.
   # This unifont finding code was copied from grub's configure.ac.
   for ext in pcf pcf.gz bdf bdf.gz ttf ttf.gz; do
-    for dir in . /usr/src /usr/share/fonts/X11/misc /usr/share/fonts/unifont; do
+    for dir in . /usr/src /usr/share/fonts/X11/misc /usr/share/fonts/unifont /usr/share/fonts/misc; do
       if test -f "$dir/unifont.$ext"; then
 	font_source="$dir/unifont.$ext"
 	break 2
