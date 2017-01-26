@@ -22,8 +22,10 @@
 
 GRUB_MKRESCUE_BINARY="grub-mkrescue"
 GRUB_MKSTANDALONE_BINARY="grub-mkstandalone"
+GRUB_MKFONT_BINARY="grub-mkfont"
 
 # Use custom built grub
 
 #GRUB_MKRESCUE_BINARY="/usr/local/bin/grub-mkrescue"
 #GRUB_MKSTANDALONE_BINARY="/usr/local/bin/grub-mkstandalone"
+#GRUB_MKFONT_BINARY="/usr/local/bin/grub-mkfont"
