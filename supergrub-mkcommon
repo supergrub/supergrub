@@ -66,21 +66,52 @@ function generate_and_copy_mo_files () {
 }
 
 function check_unifont () {
+  local unifont_basename="unifont.pf2"
+  local unifont_destdir="$overlay/boot/grub/fonts"
+  local unifont_destfile="$unifont_destdir/$unifont_basename"
+  mkdir -p -- "$unifont_destdir" || return $?
+
+  local font_dirs="$(echo $(echo '
+    /boot/grub/fonts
+    /usr/share/grub/fonts
+    '))"
+  local dir= ext=
+  for dir in $font_dirs; do
+    if [ -e "$dir/$unifont_basename" ]; then
+      cp -- "$dir/$unifont_basename" "$unifont_destdir"/; return $?
+    fi
+    if [ -e "$dir/$unifont_basename".gz ]; then
+      <"$dir/$unifont_basename".gz gzip -d > "$unifont_destfile"; return $?
+    fi
+  done
 
   # Find unifont font file to create grub font. This is needed for gfxterm in grub, which
   # in turn is needed for displaying non-ASCII characters for non-English translations.
   # This unifont finding code was copied from grub's configure.ac.
-  for ext in pcf pcf.gz bdf bdf.gz ttf ttf.gz; do
-    for dir in . /usr/src /usr/share/fonts/X11/misc /usr/share/fonts/unifont; do
-      if test -f "$dir/unifont.$ext"; then
-        font_source="$dir/unifont.$ext"
-        break 2
-      fi
+  local font_exts="$(echo $(echo '
+    bdf
+    pcf
+    ttf
+    '))"
+  font_dirs="$(echo $(echo '
+    .
+    /usr/src
+    /usr/share/fonts/X11/misc
+    /usr/share/fonts/unifont
+    '))"
+  for ext in font_exts; do
+    for ext in $ext ${ext}.gz; do
+      for dir in $font_dirs; do
+        if test -f "$dir/unifont.$ext"; then
+          font_source="$dir/unifont.$ext"
+          break 3
+        fi
+      done
     done
   done
 
   if [[ -n "$font_source" ]]; then
-    "$GRUB_MKFONT_BINARY" "$font_source" --output="$overlay/boot/grub/unifont.pf2"
+    "$GRUB_MKFONT_BINARY" "$font_source" --output="$unifont_destfile"
   else
     echo "Error: Unifont not found. Unifont is needed for Super GRUB2 Disk" >&2
     echo "to properly display non-ASCII characters. Aborting without creating an iso." >&2
