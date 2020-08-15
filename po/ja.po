@@ -1,0 +1,218 @@
+# Japanese translation for Super GRUB2 Disk.
+# Copyright (C) 2009,2010,2011,2012  Adrian Gibanel Lopez, Jordan Edward Uggla
+# This file is distributed under the same license as the Super GRUB2 Disk package.
+# Osamu Aoki <osamu@debian.org>, 2020
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Super GRUB2 Disk 2.04s2-beta2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 11:37+0300\n"
+"PO-Revision-Date: 2020-08-16 19:00+0900\n"
+"Last-Translator: Osamu Aoki <osamu@debian.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8`\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: menus/sgd/main.cfg:157 menus/sgd/main.cfg:224 menus/sgd/processenable.cfg:12
+#: menus/sgd/processenable.cfg:28 menus/sgd/main.cfg:164 menus/sgd/main.cfg:235
+msgid "Press escape to return to the main menu"
+msgstr "エスケープを押してメインメニューに戻ります"
+
+#: menus/sgd/main.cfg:164 menus/sgd/main.cfg:171
+msgid "Detect and show boot methods"
+msgstr "起動方法の検出と表示"
+
+#: menus/sgd/main.cfg:172 menus/sgd/main.cfg:179
+msgid "Boot manually"
+msgstr "手動で起動"
+
+#: menus/sgd/main.cfg:192 menus/sgd/main.cfg:201
+msgid "Extra GRUB2 functionality"
+msgstr "GRUB2の追加機能"
+
+#: menus/sgd/main.cfg:213 menus/sgd/main.cfg:224
+msgid "Print devices/partitions"
+msgstr "デバイス/パーティションを印刷"
+
+#: menus/sgd/main.cfg:228 menus/sgd/main.cfg:239
+msgid "Color ON/OFF"
+msgstr "色のオン/オフ"
+
+#: menus/sgd/main.cfg:238 menus/sgd/main.cfg:249
+msgid "Exit"
+msgstr "終了"
+
+#: menus/sgd/cfgdetect.cfg:19 menus/sgd/cfgdetect.cfg:21
+msgid "(GRUB2 configuration files)"
+msgstr "(GRUB2設定ファイル)"
+
+#: menus/sgd/cfgdetect.cfg:55 menus/sgd/cfgextract.cfg:54 menus/sgd/cfgextract.cfg:49
+msgid "(No grub.cfg file detected)"
+msgstr "(grub.cfgファイルが検出されません)"
+
+#: menus/sgd/menulstdetect.cfg:19 menus/sgd/menulstdetect.cfg:21
+msgid "(GRUB legacy configuration files)"
+msgstr "(GRUBレガシー設定ファイル)"
+
+#: menus/sgd/menulstdetect.cfg:48 menus/sgd/menulstdetect.cfg:54
+msgid "(No menu.lst file detected)"
+msgstr "(menu.lstファイルが検出されません)"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "Bootable ISOs"
+msgstr "起動可能なISO"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "(in /boot-isos or /boot/boot-isos)"
+msgstr "(/boot-isos または /boot/boot-isos 内)"
+
+#: menus/sgd/cfgextract.cfg:19 menus/sgd/cfgextract.cfg:17
+msgid "Extract entries"
+msgstr "エントリを抽出"
+
+#: menus/sgd/cfgextract.cfg:43 menus/sgd/cfgextract.cfg:37
+msgid "Entries from"
+msgstr "エントリ抽出元"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "Mount encrypted volumes"
+msgstr "暗号化されたボリュームのマウント"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "(LUKS and geli)"
+msgstr "(LUKS と geli)"
+
+#: menus/sgd/enablelvm.cfg:18 menus/sgd/enablelvm.cfg:17
+msgid "Enable GRUB2's LVM support"
+msgstr "GRUB2 の LVM サポートを有効化"
+
+#: menus/sgd/enableraid.cfg:18 menus/sgd/enableraid.cfg:17
+msgid "Enable GRUB2's RAID support"
+msgstr "GRUB2 の RAID サポートを有効化"
+
+#: menus/sgd/enableserial.cfg:18 menus/sgd/enableserial.cfg:17
+msgid "Enable serial terminal"
+msgstr "シリアル端末を有効化"
+
+#: menus/sgd/grubdetect.cfg:24 menus/sgd/grubdetect.cfg:17
+msgid "(GRUB2 installation)"
+msgstr "(GRUB2 インストール)"
+
+#: menus/sgd/grubdetect.cfg:57 menus/sgd/grubdetect.cfg:58
+msgid "(No core.img file detected)"
+msgstr "core.img ファイルが検出されません"
+
+#: menus/sgd/halt.cfg:19 menus/sgd/halt.cfg:17
+msgid "Halt"
+msgstr "停止"
+
+#: menus/sgd/language_select.cfg:19 menus/sgd/language_select.cfg:17
+msgid "Languages"
+msgstr "言語"
+
+#: menus/sgd/osdetect.cfg:21 menus/sgd/osdetect.cfg:17
+msgid "Operating Systems"
+msgstr "オペレーティング システム"
+
+#: menus/sgd/osdetect.cfg:375
+msgid "Sorry, but we are booted via BIOS and can not load this OS."
+msgstr "残念ながら、BIOS 経由で起動しているため、この OS をロードできません。"
+
+#: menus/sgd/osdetect.cfg:376
+msgid "Please try booting SG2D via UEFI."
+msgstr "UEFI 経由で SG2D を起動してください。"
+
+#: menus/sgd/osdetect.cfg:377 menus/sgd/tools.cfg:56
+msgid "Press escape to return to the menu"
+msgstr "エスケープを押してメニューに戻ります"
+
+#: menus/sgd/processenable.cfg:4 menus/sgd/processenable.cfg:20
+msgid "Begin processing"
+msgstr "処理開始"
+
+#: menus/sgd/processenable.cfg:6 menus/sgd/processenable.cfg:22
+msgid "End processing"
+msgstr "処理終了"
+
+#: menus/sgd/processenable.cfg:12 menus/sgd/processenable.cfg:28
+msgid "(or wait 5 seconds)"
+msgstr "(または5秒待機)"
+
+#: menus/sgd/reboot.cfg:19 menus/sgd/reboot.cfg:17
+msgid "Reboot"
+msgstr "再起動"
+
+#: menus/sgd/return.cfg:1 menus/sgd/return.cfg:17
+msgid "Return to main menu"
+msgstr "メインメニューに戻る"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchcdrom.cfg:28 menus/sgd/searchcdrom.cfg:17
+#: menus/sgd/searchcdrom.cfg:27
+msgid "Search in CDROM"
+msgstr "CDROM 内を検索"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18 menus/sgd/searchcdrom.cfg:17
+#: menus/sgd/searchsgd.cfg:17 menus/sgd/searchfloppy.cfg:17
+msgid "ON/OFF"
+msgstr "オン/オフ"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18 menus/sgd/searchcdrom.cfg:17
+#: menus/sgd/searchsgd.cfg:17 menus/sgd/searchfloppy.cfg:17
+msgid "(Default: OFF)"
+msgstr "(デフォルト: オフ)"
+
+#: menus/sgd/searchfloppy.cfg:18 menus/sgd/searchfloppy.cfg:28
+#: menus/sgd/searchfloppy.cfg:17 menus/sgd/searchfloppy.cfg:27
+msgid "Search in floppy"
+msgstr "フロッピー内を検索"
+
+#: menus/sgd/enableraidlvm.cfg:17
+msgid "Enable GRUB2's RAID and LVM support"
+msgstr "GRUB2 の RAID および LVM サポートを有効化"
+
+#: menus/sgd/tools.cfg:48
+msgid "BIOS Compatibility Mode"
+msgstr "BIOS 互換モード"
+
+#: menus/sgd/tools.cfg:54
+msgid "Sorry, but we are booted via "
+msgstr "残念ながら、"
+
+#: menus/sgd/tools.cfg:54
+msgid " and can not load this OS."
+msgstr "経由での起動なので、この OS はロードできません。"
+
+#: menus/sgd/tools.cfg:55
+msgid "Please try booting SG2D via"
+msgstr "以下を経由してSG2D の起動を試してください: "
+
+#: menus/sgd/diskpartchainboot.cfg:17
+msgid "Disks and Partitions (Chainload)"
+msgstr "ディスクとパーティション (チェーンロード)"
+
+#: menus/sgd/diskpartchainboot.cfg:23
+msgid "Reboot SG2D in BIOS mode to Chainload disks and Partitions"
+msgstr "ディスクとパーティションをチェーンロードするために、BIOS モードで SG2D を再起動"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "Enable all native disk drivers"
+msgstr "すべてのネイティブディスクドライバーを有効化"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "experimental"
+msgstr "実験的"
+
+#: menus/sgd/searchsgd.cfg:17 menus/sgd/searchsgd.cfg:27
+msgid "Search in Super Grub2 Disk device"
+msgstr "Super Grub2ディスクデバイス内を検索"
+
+#: menus/sgd/osdetect.cfg:280
+msgid "UEFI-BOOT-REQUIRED:"
+msgstr "UEFI 起動必要:"
+
+#: menus/sgd/osdetect.cfg:286
+msgid "BIOS-BOOT-REQUIRED:"
+msgstr "BIOS 起動必要:"
