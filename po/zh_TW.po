@@ -1,0 +1,166 @@
+# Japanese translation for Super GRUB2 Disk.
+# Copyright (C) 2022 Oliver Tzeng
+# This file is distributed under the same license as the Super GRUB2 Disk package.
+# Oliver Tzeng 曾嘉禾 <olivertzengolivertzeng@gmail.com>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-14 02:43+0000\n"
+"PO-Revision-Date: 2016-01-21 23:03+0800\n"
+"Last-Translator: Oliver Tzeng 曾嘉禾 <olivertzengolivertzeng@gmail.com>\n"
+"Language-Team: zh_TW <l10n_tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: menus/main.cfg:157 menus/main.cfg:224 menus/processenable.cfg:12
+msgid "Press escape to return to the main menu"
+msgstr "按 ESC 鍵返回主畫面"
+
+#: menus/main.cfg:164
+msgid "Detect and show boot methods"
+msgstr "探測並顯示開機方式"
+
+#: menus/main.cfg:172
+msgid "Boot manually"
+msgstr "手動開機"
+
+#: menus/main.cfg:192
+msgid "Extra GRUB2 functionality"
+msgstr "附加的 GRUB2 功能"
+
+#: menus/main.cfg:213
+msgid "Print devices/partitions"
+msgstr "列出裝置／分區"
+
+#: menus/main.cfg:228
+msgid "Color ON/OFF"
+msgstr "顏色 開／關"
+
+#: menus/main.cfg:238
+msgid "Exit"
+msgstr "退出"
+
+#: menus/cfgdetect.cfg:19
+msgid "(GRUB2 configuration files)"
+msgstr "（GRUB2 設定檔案）"
+
+#: menus/cfgdetect.cfg:55 menus/cfgextract.cfg:54
+msgid "(No grub.cfg file detected)"
+msgstr "（没有探測到 grub.cfg 檔案）"
+
+#: menus/menulstdetect.cfg:19
+msgid "(GRUB legacy configuration files)"
+msgstr "（GRUB legacy 設定檔案）"
+
+#: menus/menulstdetect.cfg:48
+msgid "(No menu.lst file detected)"
+msgstr "（没有探測到 menu.lst）"
+
+#: menus/autoiso.cfg:18
+msgid "Bootable ISOs"
+msgstr "可開機的 ISO"
+
+#: menus/autoiso.cfg:18
+msgid "(in /boot-isos or /boot/boot-isos)"
+msgstr "（在 /boot-isos 或 /boot/boot-isos）"
+
+#: menus/cfgextract.cfg:19
+msgid "Extract entries"
+msgstr "尋找項目"
+
+#: menus/cfgextract.cfg:43
+msgid "Entries from"
+msgstr "項目路徑"
+
+#: menus/enableencrypted.cfg:18
+msgid "Mount encrypted volumes"
+msgstr "加密硬碟"
+
+#: menus/enableencrypted.cfg:18
+msgid "(LUKS and geli)"
+msgstr "(LUKS 和 geli)"
+
+#: menus/enablelvm.cfg:18
+msgid "Enable GRUB2's LVM support"
+msgstr "啟用 GRUB2 對 LVM 的支援"
+
+#: menus/enableraid.cfg:18
+msgid "Enable GRUB2's RAID support"
+msgstr "啟用 GRUB2 對 RAID 的支援"
+
+#: menus/enableserial.cfg:18
+msgid "Enable serial terminal"
+msgstr "啟用序列終端機"
+
+#: menus/grubdetect.cfg:24
+msgid "(GRUB2 installation)"
+msgstr "（安裝 GRUB2）"
+
+#: menus/grubdetect.cfg:57
+msgid "(No core.img file detected)"
+msgstr "（没有探測到 core.img）"
+
+#: menus/halt.cfg:19
+msgid "Halt"
+msgstr "關機"
+
+#: menus/language_select.cfg:19
+msgid "Languages"
+msgstr "語言"
+
+#: menus/osdetect.cfg:21
+msgid "Operating Systems"
+msgstr "作業系統"
+
+#: menus/osdetect.cfg:375
+msgid "Sorry, but we are booted via BIOS and can not load this OS."
+msgstr "抱歉，BIOS 無法開機此作業系統"
+
+#: menus/osdetect.cfg:376
+msgid "Please try booting SG2D via UEFI."
+msgstr "請嘗試透過 UEFI 開啟 SG2D"
+
+#: menus/osdetect.cfg:377
+msgid "Press escape to return to the menu"
+msgstr "按 ESC 鍵返回主畫面"
+
+#: menus/processenable.cfg:4
+msgid "Begin processing"
+msgstr "開始處理"
+
+#: menus/processenable.cfg:6
+msgid "End processing"
+msgstr "處理完成"
+
+#: menus/processenable.cfg:12
+msgid "(or wait 5 seconds)"
+msgstr "（或者等待 5 秒鐘）"
+
+#: menus/reboot.cfg:19
+msgid "Reboot"
+msgstr "重新啟動"
+
+#: menus/return.cfg:1
+msgid "Return to main menu"
+msgstr "返回主畫面"
+
+#: menus/searchcdrom.cfg:18 menus/searchcdrom.cfg:28
+msgid "Search in CDROM"
+msgstr "在 CDROM 中搜尋"
+
+#: menus/searchcdrom.cfg:18 menus/searchfloppy.cfg:18
+msgid "ON/OFF"
+msgstr "開／關"
+
+#: menus/searchcdrom.cfg:18 menus/searchfloppy.cfg:18
+msgid "(Default: OFF)"
+msgstr "（預設：關）"
+
+#: menus/searchfloppy.cfg:18 menus/searchfloppy.cfg:28
+msgid "Search in floppy"
+msgstr "在磁片中搜尋"
