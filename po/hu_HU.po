@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 11:37+0300\n"
+"PO-Revision-Date: 2024-04-25 16:02+0200\n"
+"Last-Translator: Mihaly Nyilas <dr.dabzse@gmail.com>\n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: menus/sgd/main.cfg:157 menus/sgd/main.cfg:224 menus/sgd/processenable.cfg:12
+#: menus/sgd/processenable.cfg:28 menus/sgd/main.cfg:164 menus/sgd/main.cfg:235
+msgid "Press escape to return to the main menu"
+msgstr "Nyomja meg az Escape gombot a főmenübe való visszatéréshez"
+
+#: menus/sgd/main.cfg:164 menus/sgd/main.cfg:171
+msgid "Detect and show boot methods"
+msgstr "A rendszerindítási módszerek észlelése és megjelenítése"
+
+#: menus/sgd/main.cfg:172 menus/sgd/main.cfg:179
+msgid "Boot manually"
+msgstr "Manuális indítás"
+
+#: menus/sgd/main.cfg:192 menus/sgd/main.cfg:201
+msgid "Extra GRUB2 functionality"
+msgstr "Extra GRUB2 funkcionalitás"
+
+#: menus/sgd/main.cfg:213 menus/sgd/main.cfg:224
+msgid "Print devices/partitions"
+msgstr "Eszközök/partíciók kiírása"
+
+#: menus/sgd/main.cfg:228 menus/sgd/main.cfg:239
+msgid "Color ON/OFF"
+msgstr "Szín BE/KI"
+
+#: menus/sgd/main.cfg:238 menus/sgd/main.cfg:249
+msgid "Exit"
+msgstr "Kilépés"
+
+#: menus/sgd/cfgdetect.cfg:19 menus/sgd/cfgdetect.cfg:21
+msgid "(GRUB2 configuration files)"
+msgstr "(GRUB2 konfigurációs fájlok)"
+
+#: menus/sgd/cfgdetect.cfg:55 menus/sgd/cfgextract.cfg:54
+#: menus/sgd/cfgextract.cfg:49
+msgid "(No grub.cfg file detected)"
+msgstr "(Nem található grub.cfg fájl)"
+
+#: menus/sgd/menulstdetect.cfg:19 menus/sgd/menulstdetect.cfg:21
+msgid "(GRUB legacy configuration files)"
+msgstr "(GRUB örökölt konfigurációs fájlok)"
+
+#: menus/sgd/menulstdetect.cfg:48 menus/sgd/menulstdetect.cfg:54
+msgid "(No menu.lst file detected)"
+msgstr "(Nem észlelhető menu.lst fájl)"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "Bootable ISOs"
+msgstr "Bootolható ISO-k"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "(in /boot-isos or /boot/boot-isos)"
+msgstr "(a /boot-isos vagy /boot/boot-isos könyvtárban)"
+
+#: menus/sgd/cfgextract.cfg:19 menus/sgd/cfgextract.cfg:17
+msgid "Extract entries"
+msgstr "Bejegyzések kibontása"
+
+#: menus/sgd/cfgextract.cfg:43 menus/sgd/cfgextract.cfg:37
+msgid "Entries from"
+msgstr "Bejegyzések innen"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "Mount encrypted volumes"
+msgstr "Titkosított kötetek csatlakoztatása"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "(LUKS and geli)"
+msgstr "(LUKS és geli)"
+
+#: menus/sgd/enablelvm.cfg:18 menus/sgd/enablelvm.cfg:17
+msgid "Enable GRUB2's LVM support"
+msgstr "Engedélyezze a GRUB2 LVM támogatását"
+
+#: menus/sgd/enableraid.cfg:18 menus/sgd/enableraid.cfg:17
+msgid "Enable GRUB2's RAID support"
+msgstr "Engedélyezze a GRUB2 RAID támogatását"
+
+#: menus/sgd/enableserial.cfg:18 menus/sgd/enableserial.cfg:17
+msgid "Enable serial terminal"
+msgstr "Soros terminál engedélyezése"
+
+#: menus/sgd/grubdetect.cfg:24 menus/sgd/grubdetect.cfg:17
+msgid "(GRUB2 installation)"
+msgstr "(GRUB2 telepítés)"
+
+#: menus/sgd/grubdetect.cfg:57 menus/sgd/grubdetect.cfg:58
+msgid "(No core.img file detected)"
+msgstr "(Nem észlelhető core.img fájl)"
+
+#: menus/sgd/halt.cfg:19 menus/sgd/halt.cfg:17
+msgid "Halt"
+msgstr "Állj"
+
+#: menus/sgd/language_select.cfg:19 menus/sgd/language_select.cfg:17
+msgid "Languages"
+msgstr "Nyelvek"
+
+#: menus/sgd/osdetect.cfg:21 menus/sgd/osdetect.cfg:17
+msgid "Operating Systems"
+msgstr "Operációs rendszerek"
+
+#: menus/sgd/osdetect.cfg:375
+msgid "Sorry, but we are booted via BIOS and can not load this OS."
+msgstr "Sajnáljuk, de BIOS-on keresztül indulunk, és nem tudjuk betölteni ezt az operációs rendszert."
+
+#: menus/sgd/osdetect.cfg:376
+msgid "Please try booting SG2D via UEFI."
+msgstr "Kérjük, próbálja meg az SG2D-t UEFI-n keresztül indítani."
+
+#: menus/sgd/osdetect.cfg:377 menus/sgd/tools.cfg:56
+msgid "Press escape to return to the menu"
+msgstr "Nyomja meg az Escape gombot a menübe való visszatéréshez"
+
+#: menus/sgd/processenable.cfg:4 menus/sgd/processenable.cfg:20
+msgid "Begin processing"
+msgstr "Feldolgozás kezdése"
+
+#: menus/sgd/processenable.cfg:6 menus/sgd/processenable.cfg:22
+msgid "End processing"
+msgstr "Feldolgozás befejezése"
+
+#: menus/sgd/processenable.cfg:12 menus/sgd/processenable.cfg:28
+msgid "(or wait 5 seconds)"
+msgstr "(vagy várjon 5 másodpercet)"
+
+#: menus/sgd/reboot.cfg:19 menus/sgd/reboot.cfg:17
+msgid "Reboot"
+msgstr "Újraindítás"
+
+#: menus/sgd/return.cfg:1 menus/sgd/return.cfg:17
+msgid "Return to main menu"
+msgstr "Vissza a főmenübe"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchcdrom.cfg:28
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchcdrom.cfg:27
+msgid "Search in CDROM"
+msgstr "Keresés a CD-ROM-on"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchsgd.cfg:17
+#: menus/sgd/searchfloppy.cfg:17
+msgid "ON/OFF"
+msgstr "BE/KI"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchsgd.cfg:17
+#: menus/sgd/searchfloppy.cfg:17
+msgid "(Default: OFF)"
+msgstr "(Alapértelmezett: KI)"
+
+#: menus/sgd/searchfloppy.cfg:18 menus/sgd/searchfloppy.cfg:28
+#: menus/sgd/searchfloppy.cfg:17 menus/sgd/searchfloppy.cfg:27
+msgid "Search in floppy"
+msgstr "Keresés floppy-n"
+
+#: menus/sgd/enableraidlvm.cfg:17
+msgid "Enable GRUB2's RAID and LVM support"
+msgstr "Engedélyezze a GRUB2 RAID és LVM támogatását"
+
+#: menus/sgd/tools.cfg:48
+msgid "BIOS Compatibility Mode"
+msgstr "BIOS-kompatibilitási mód"
+
+#: menus/sgd/tools.cfg:54
+msgid "Sorry, but we are booted via "
+msgstr "Sajnáljuk, de ezen keresztül indulunk ( "
+
+#: menus/sgd/tools.cfg:54
+msgid " and can not load this OS."
+msgstr " ) és nem tudja betölteni ezt az operációs rendszert."
+
+#: menus/sgd/tools.cfg:55
+msgid "Please try booting SG2D via"
+msgstr "Kérjük, próbálja meg az SG2D-t ezen keresztül indítani"
+
+#: menus/sgd/diskpartchainboot.cfg:17
+msgid "Disks and Partitions (Chainload)"
+msgstr "Lemezek és partíciók (lánctöltés)"
+
+#: menus/sgd/diskpartchainboot.cfg:23
+msgid "Reboot SG2D in BIOS mode to Chainload disks and Partitions"
+msgstr "Indítsa újra az SG2D-t BIOS módban a lemezek és partíciók láncbetöltéséhez"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "Enable all native disk drivers"
+msgstr "Engedélyezze az összes natív lemezmeghajtót"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "experimental"
+msgstr "kísérleti"
+
+#: menus/sgd/searchsgd.cfg:17 menus/sgd/searchsgd.cfg:27
+msgid "Search in Super Grub2 Disk device"
+msgstr "Keresés a Super Grub2 Disk eszközön"
+
+#: menus/sgd/osdetect.cfg:280
+msgid "UEFI-BOOT-REQUIRED:"
+msgstr "UEFI-BOOT SZÜKSÉGES:"
+
+#: menus/sgd/osdetect.cfg:286
+msgid "BIOS-BOOT-REQUIRED:"
+msgstr "BIOS-BOOT-SZÜKSÉGES:"
