@@ -48,7 +48,7 @@ wget -q "${SHIM_SIGNED_DEB_URL}" || DOWNLOAD_RETURN_STATUS=1
 dpkg-deb -x ${SHIM_SIGNED_DEB} ./
 
 # Signed SHIM Binary final copy
-cp usr/lib/shim/shim${SB_EFI_PLATFORM}.efi.signed ${SHIM_FULLPATH_BINARY}
+cp usr/lib/shim/shim${SB_EFI_PLATFORM}.efi.dualsigned ${SHIM_FULLPATH_BINARY}
 
 # Signed GRUB Binary download
 cd ${DOWNLOAD_TMP_DIR}
