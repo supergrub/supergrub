@@ -28,6 +28,8 @@ RUN apt-get -y update && \
 
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 
+RUN apt-get -y install grub-common
+
 RUN apt-get -y build-dep grub2
 
 RUN echo "sgdbuilder ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/sgdbuilder-sudo
