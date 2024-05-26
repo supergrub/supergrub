@@ -42,7 +42,7 @@ source grub-build-config
 GRUB_INSTALL_BINARY="\
 ${SG2D_GRUB_INSTALLATION_PREFIX}\
 /${SG2D_GRUB_INSTALLATION_HYBRID}\
-/bin/grub-install\
+/sbin/grub-install\
 "
 
 GRUB_MKFONT_BINARY="\
