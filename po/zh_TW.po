@@ -1,6 +1,6 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Japanese translation for Super GRUB2 Disk.
+# Copyright (C) 2022 Oliver Tzeng
+# This file is distributed under the same license as the Super GRUB2 Disk package.
 # Oliver Tzeng 曾嘉禾 <olivertzengolivertzeng@gmail.com>, 2022.
 #
 #, fuzzy
