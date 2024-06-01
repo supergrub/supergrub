@@ -1,7 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hungarian translations for Super GRUB2 Disk.
+# Magyar fordítások a Super GRUB2 Disk -hez.
+# Copyright (C) 2024 Mihaly Nyilas
+# This file is distributed under the same license as the Super GRUB2 Disk package.
+# Mihaly Nyilas <dr.dabzse@gmail.com>, 2024.
 #
 #, fuzzy
 msgid ""
