@@ -382,7 +382,7 @@ Or we can build all the SG2D releases thanks to:
 ```
 In this case the files will be found at `releases/` directory.
 
-## Super Grub2 Disk release team usual procedure
+## Super Grub2 Disk team - Old release procedure
 
 ```
 ./grub-build-001-prepare-build
@@ -400,6 +400,53 @@ and
 where 2.02s7 is the previous version (git tag) to the current one you are releasing.
 
 Useful files for helping with the html release piece of news will be found at `news-releases` directory.
+
+## Super Grub2 Disk team - New release procedure
+
+### Automatic build
+
+- Build 2.06s3-beta4 tag
+- Previous version: 2.06s2-beta1
+
+```
+mkdir ~/gnu/sgd/supergrub2-build-2.06s3-beta4-official-release-build
+cd ~/gnu/sgd/supergrub2-build-2.06s3-beta4-official-release-build
+
+git clone https://github.com/supergrub/supergrub.git -b 2.06s3-beta4
+cd supergrub
+```
+
+```
+docker build \
+  --build-arg SGD_BUILDER_UID=$(id -u) \
+  --build-arg SGD_BUILDER_GID=$(id -g) \
+  --tag supergrub-automatic-builder . \
+  -f automatic-builder.Dockerfile
+```
+
+```
+docker run \
+  -it \
+  --privileged \
+  --env PREVIOUS_VERSION=2.06s2-beta1 \
+  --env SGD_BUILDER_UID=$(id -u) \
+  --env SGD_BUILDER_GID=$(id -g) \
+  -v /dev:/dev \
+  -v $(pwd):/supergrub2-repo:ro \
+  -v $(pwd)/releases:/supergrub2-build/releases:rw \
+  -v $(pwd)/news-releases:/supergrub2-build/news-releases:rw \
+  -v $(pwd)/secureboot-binaries:/supergrub2-build/secureboot-binaries:rw \
+  -v $(pwd)/secureboot.d/sha256sums:/supergrub2-build/secureboot.d/sha256sums:rw \
+  supergrub-automatic-builder:latest
+```
+
+### Useful output
+
+At `~/gnu/sgd/supergrub2-build-2.06s3-beta4-official-release-build/supergrub` path we will find:
+
+- releases/ : Binaries to upload
+- news-releases/changes.2.06s3-beta4.html : Changes from latest tag.
+- news-releases/downloads.2.06s3-beta4.html : Download links with checksums for all of the binaries
 
 # Alternative Super Grub2 Disk Build
 
