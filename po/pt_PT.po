@@ -1,0 +1,223 @@
+# Portuguese translation for Super GRUB2 Disk.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Super GRUB2 Disk package.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-09 11:37+0300\n"
+"PO-Revision-Date: 2024-08-03 15:36+0100\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: menus/sgd/main.cfg:157 menus/sgd/main.cfg:224 menus/sgd/processenable.cfg:12
+#: menus/sgd/processenable.cfg:28 menus/sgd/main.cfg:164 menus/sgd/main.cfg:235
+msgid "Press escape to return to the main menu"
+msgstr "Prima Esc para voltar ao menu principal"
+
+#: menus/sgd/main.cfg:164 menus/sgd/main.cfg:171
+msgid "Detect and show boot methods"
+msgstr "Detetar e mostrar métodos de arranque"
+
+#: menus/sgd/main.cfg:172 menus/sgd/main.cfg:179
+msgid "Boot manually"
+msgstr "Arranque manual"
+
+#: menus/sgd/main.cfg:192 menus/sgd/main.cfg:201
+msgid "Extra GRUB2 functionality"
+msgstr "Funcionalidade extra do GRUB2"
+
+#: menus/sgd/main.cfg:213 menus/sgd/main.cfg:224
+msgid "Print devices/partitions"
+msgstr "Mostrar dispositivos/partições"
+
+#: menus/sgd/main.cfg:228 menus/sgd/main.cfg:239
+msgid "Color ON/OFF"
+msgstr "Cor ON/OFF"
+
+#: menus/sgd/main.cfg:238 menus/sgd/main.cfg:249
+msgid "Exit"
+msgstr "Sair"
+
+#: menus/sgd/cfgdetect.cfg:19 menus/sgd/cfgdetect.cfg:21
+msgid "(GRUB2 configuration files)"
+msgstr "(ficheiros de configuração GRUB2)"
+
+#: menus/sgd/cfgdetect.cfg:55 menus/sgd/cfgextract.cfg:54
+#: menus/sgd/cfgextract.cfg:49
+msgid "(No grub.cfg file detected)"
+msgstr "(não foi detetado nenhum ficheiro grub.cfg)"
+
+#: menus/sgd/menulstdetect.cfg:19 menus/sgd/menulstdetect.cfg:21
+msgid "(GRUB legacy configuration files)"
+msgstr "(ficheiros de configuração do GRUB legacy)"
+
+#: menus/sgd/menulstdetect.cfg:48 menus/sgd/menulstdetect.cfg:54
+msgid "(No menu.lst file detected)"
+msgstr "(Nenhum ficheiro menu.lst detetado)"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "Bootable ISOs"
+msgstr "ISOs de arranque"
+
+#: menus/sgd/autoiso.cfg:18 menus/sgd/autoiso.cfg:17
+msgid "(in /boot-isos or /boot/boot-isos)"
+msgstr "(em /boot-isos ou /boot/boot-isos)"
+
+#: menus/sgd/cfgextract.cfg:19 menus/sgd/cfgextract.cfg:17
+msgid "Extract entries"
+msgstr "Extrair entradas"
+
+#: menus/sgd/cfgextract.cfg:43 menus/sgd/cfgextract.cfg:37
+msgid "Entries from"
+msgstr "Entradas de"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "Mount encrypted volumes"
+msgstr "Montar volumes encriptados"
+
+#: menus/sgd/enableencrypted.cfg:18 menus/sgd/enableencrypted.cfg:17
+msgid "(LUKS and geli)"
+msgstr "(LUKS e geli)"
+
+#: menus/sgd/enablelvm.cfg:18 menus/sgd/enablelvm.cfg:17
+msgid "Enable GRUB2's LVM support"
+msgstr "Ativar o suporte LVM do GRUB2"
+
+#: menus/sgd/enableraid.cfg:18 menus/sgd/enableraid.cfg:17
+msgid "Enable GRUB2's RAID support"
+msgstr "Ativar o suporte RAID do GRUB2"
+
+#: menus/sgd/enableserial.cfg:18 menus/sgd/enableserial.cfg:17
+msgid "Enable serial terminal"
+msgstr "Ativar o terminal de série"
+
+#: menus/sgd/grubdetect.cfg:24 menus/sgd/grubdetect.cfg:17
+msgid "(GRUB2 installation)"
+msgstr "(instalação do GRUB2)"
+
+#: menus/sgd/grubdetect.cfg:57 menus/sgd/grubdetect.cfg:58
+msgid "(No core.img file detected)"
+msgstr "(Nenhum ficheiro core.img detetado)"
+
+#: menus/sgd/halt.cfg:19 menus/sgd/halt.cfg:17
+msgid "Halt"
+msgstr "Terminar"
+
+#: menus/sgd/language_select.cfg:19 menus/sgd/language_select.cfg:17
+msgid "Languages"
+msgstr "Idiomas"
+
+#: menus/sgd/osdetect.cfg:21 menus/sgd/osdetect.cfg:17
+msgid "Operating Systems"
+msgstr "Sistemas Operativos"
+
+#: menus/sgd/osdetect.cfg:375
+msgid "Sorry, but we are booted via BIOS and can not load this OS."
+msgstr "Estamos a arrancar através do BIOS e não podemos carregar este sistema operativo."
+
+#: menus/sgd/osdetect.cfg:376
+msgid "Please try booting SG2D via UEFI."
+msgstr "Tente arrancar o SG2D via UEFI."
+
+#: menus/sgd/osdetect.cfg:377 menus/sgd/tools.cfg:56
+msgid "Press escape to return to the menu"
+msgstr "Prima Esc para voltar ao menu"
+
+#: menus/sgd/processenable.cfg:4 menus/sgd/processenable.cfg:20
+msgid "Begin processing"
+msgstr "Início do processo"
+
+#: menus/sgd/processenable.cfg:6 menus/sgd/processenable.cfg:22
+msgid "End processing"
+msgstr "Fim do processo"
+
+#: menus/sgd/processenable.cfg:12 menus/sgd/processenable.cfg:28
+msgid "(or wait 5 seconds)"
+msgstr "(ou aguardar 5 segundos)"
+
+#: menus/sgd/reboot.cfg:19 menus/sgd/reboot.cfg:17
+msgid "Reboot"
+msgstr "Reiniciar"
+
+#: menus/sgd/return.cfg:1 menus/sgd/return.cfg:17
+msgid "Return to main menu"
+msgstr "Voltar ao menu principal"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchcdrom.cfg:28
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchcdrom.cfg:27
+msgid "Search in CDROM"
+msgstr "Procurar no CDROM"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchsgd.cfg:17
+#: menus/sgd/searchfloppy.cfg:17
+msgid "ON/OFF"
+msgstr "ON/OFF"
+
+#: menus/sgd/searchcdrom.cfg:18 menus/sgd/searchfloppy.cfg:18
+#: menus/sgd/searchcdrom.cfg:17 menus/sgd/searchsgd.cfg:17
+#: menus/sgd/searchfloppy.cfg:17
+msgid "(Default: OFF)"
+msgstr "(Predefinição: OFF)"
+
+#: menus/sgd/searchfloppy.cfg:18 menus/sgd/searchfloppy.cfg:28
+#: menus/sgd/searchfloppy.cfg:17 menus/sgd/searchfloppy.cfg:27
+msgid "Search in floppy"
+msgstr "Procurar na disquete"
+
+#: menus/sgd/enableraidlvm.cfg:17
+msgid "Enable GRUB2's RAID and LVM support"
+msgstr "Ativar o suporte RAID e LVM do GRUB2"
+
+#: menus/sgd/tools.cfg:48
+msgid "BIOS Compatibility Mode"
+msgstr "Modo de compatibilidade do BIOS"
+
+#: menus/sgd/tools.cfg:54
+msgid "Sorry, but we are booted via "
+msgstr "Arrancamos via "
+
+#: menus/sgd/tools.cfg:54
+msgid " and can not load this OS."
+msgstr " e não conseguimos carregar este sistema operativo."
+
+#: menus/sgd/tools.cfg:55
+msgid "Please try booting SG2D via"
+msgstr "Tente arrancar o SG2D via"
+
+#: menus/sgd/diskpartchainboot.cfg:17
+msgid "Disks and Partitions (Chainload)"
+msgstr "Discos e Partições (Chainload)"
+
+#: menus/sgd/diskpartchainboot.cfg:23
+msgid "Reboot SG2D in BIOS mode to Chainload disks and Partitions"
+msgstr "Reinicie o SG2D no modo BIOS para carregar os discos e as partições em cadeia (Chainload)"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "Enable all native disk drivers"
+msgstr "Ativar todos os controladores dos discos"
+
+#: menus/sgd/enablenative.cfg:17
+msgid "experimental"
+msgstr "experimental"
+
+#: menus/sgd/searchsgd.cfg:17 menus/sgd/searchsgd.cfg:27
+msgid "Search in Super Grub2 Disk device"
+msgstr "Pesquisar no dispositivo de disco Super Grub2"
+
+#: menus/sgd/osdetect.cfg:280
+msgid "UEFI-BOOT-REQUIRED:"
+msgstr "UEFI-BOOT-REQUIRED:"
+
+#: menus/sgd/osdetect.cfg:286
+msgid "BIOS-BOOT-REQUIRED:"
+msgstr "BIOS-BOOT-REQUIRED:"
